@@ -1,0 +1,25 @@
+{
+  "name": "lalilalai/spreadsheet-validator",
+  "description": "Spreadsheet validator to match xls, xlsx and csv files to early set pattern",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lalilalai",
+      "email": "lalilalai.programmer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "lalilalai/spreadsheet": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lalilalai\\Spreadsheet\\Validator\\": "src/",
+      "Lalilalai\\Spreadsheet\\Validator\\Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}
