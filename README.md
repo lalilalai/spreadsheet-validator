@@ -1,2 +1,2 @@
 # spreadsheet-validator
-Spreadsheet validator with rules to check cells values
+Spreadsheet validator to check cells values in xlsx, xls and csv files
